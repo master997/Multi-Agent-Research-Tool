@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temp files written by coordinator
+/tmp/research-result-*.json
+/tmp/research-normalized-latest.json
+
+# Reports are generated output — keep the directory, ignore contents
+reports/*.md
+
+# macOS
+.DS_Store

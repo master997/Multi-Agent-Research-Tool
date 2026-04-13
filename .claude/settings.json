@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__brave-search__brave_web_search",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/aiyubalimaster/Documents/Claude partner/claude-architect-course/domain-1-agentic-orchestration/project/hooks/normalize-mcp-output.py"
+          }
+        ]
+      }
+    ]
+  }
+}
